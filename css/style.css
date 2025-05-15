@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  background-color: black;
+  font-family: lato;
+  font-weight: bold;
+}
+.logo {
+  color: #fec0ca;
+  font-size: 1.5rem;
+  padding-left: 6rem;
+  font-weight: bold;
+}
+nav a {
+  color: #fec0ca;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.link {
+  color: black;
+  background-color: gold;
+  font-weight: bold;
+  grid-column: 2/3;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: inline;
+}
+button {
+  color: black;
+  background-color: gold;
+  font-weight: bold;
+  grid-column: 2/3;
+
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
