@@ -59,3 +59,14 @@ button {
   padding: 1rem;
   border-radius: 0.5rem;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  grid-column: 2/3;
+}
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
